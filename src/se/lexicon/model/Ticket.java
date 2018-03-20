@@ -11,4 +11,5 @@ public interface Ticket {
 	public String getDestination();
 	public Date getFlightTime();
 	public boolean getFoodOption();
+	public FoodType getFoodType();
 }

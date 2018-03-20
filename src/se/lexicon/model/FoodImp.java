@@ -1,6 +1,5 @@
 package se.lexicon.model;
 
-import java.util.Date;
 
 public class FoodImp implements Food{
 

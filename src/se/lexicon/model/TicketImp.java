@@ -1,6 +1,7 @@
 package se.lexicon.model;
 
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class TicketImp implements Ticket {
 
@@ -18,6 +19,9 @@ public class TicketImp implements Ticket {
 	public TicketImp(int id, String flightNumber, FlightClass flightClass, int seatNumber, String destination,
 			Date flightTime, boolean foodOption) {
 		super();
+		
+		GregorianCalendar gc = new GregorianCalendar();
+		gc.setTime(flightTime);
 		Id = id;
 		this.flightNumber = flightNumber;
 		this.flightClass = flightClass;

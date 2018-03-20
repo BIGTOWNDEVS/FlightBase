@@ -11,11 +11,12 @@ public class SystemUI {
 
 		// Loop-condition
 		boolean isRunning = true;
+		int count = 0;
 
 		// Try-with-resources to auto-close scanner on error or exit
 		try(Scanner scanner = new Scanner(System.in)) {
 
-			ui UI = new ui(); 
+//			ui UI = new ui(); 
 			
 			// Run at least once.
 			do {
@@ -36,8 +37,27 @@ public class SystemUI {
 							
 						case "1": 
 							
-							
-							break; 
+							Scanner sc=new Scanner(System.in);  
+						     
+							   System.out.println("Enter Destination of the Flight");  
+							   String destination =sc.next();  
+							   System.out.println("How Many Passengers");  
+							   int numberOfPassengers = sc.nextInt();  
+							   System.out.println("Enter if you want food to be served");  
+							   int bFoodOption =sc.nextInt();  
+							   System.out.println("Destination:"+destination+" number of passerngers:"+numberOfPassengers);
+							   if(bFoodOption == 1)
+								   System.out.println(" Food will be served");
+							   else
+								   System.out.println(" Food will not be served");
+							   
+							   sc.close();
+							   count++;
+							   if(count == 10) {
+								   isRunning = false;								   
+							   }
+
+							   break; 
 						
 						default:
 							System.out.println(keyboard + " is not a valid option. Please try again.");

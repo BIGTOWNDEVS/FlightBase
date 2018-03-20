@@ -1,7 +1,7 @@
 package se.lexicon.model;
 
 public enum FoodPriceType {
-ECONOMY_PRICE(5000), BUSINESS_PRICE(20000);
+ECONOMY_PRICE(100), BUSINESS_PRICE(500);
 	
 	private int price;
 	

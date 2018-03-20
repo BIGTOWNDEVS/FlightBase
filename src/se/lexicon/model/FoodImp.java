@@ -2,23 +2,41 @@ package se.lexicon.model;
 
 import java.util.Date;
 
-public class FoodImp {
-	
+public class FoodImp implements Food{
+
 	private String foodName;
-	private Date serviceTime;
+	private int price;
+	private FoodType foodType;
 	
-	public FoodImp(String foodName, Date serviceTime) {
+//	private Date serviceTime;
+	@Override
+	public String getName() {
+		
+		return this.foodName;
+	}
+
+	@Override
+	public int getPrice() {
+		
+		return this.price;
+	}
+
+	public FoodImp(String foodName, int price, FoodType foodType) {
 		super();
 		this.foodName = foodName;
-		this.serviceTime = serviceTime;
+		this.price = price;
+		this.foodType = foodType;
 	}
 
-	public String getFoodName() {
-		return foodName;
+	@Override
+	public FoodType getFoodType() {
+		
+		return this.foodType;
 	}
 
-	public Date getServiceTime() {
-		return serviceTime;
+	@Override
+	public String toString() {
+		return "FoodImp [foodName=" + foodName + ", price=" + price + ", foodType=" + foodType + "]";
 	}
 }
 

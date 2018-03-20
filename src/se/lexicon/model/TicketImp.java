@@ -11,6 +11,8 @@ public class TicketImp implements Ticket {
 	private String destination;
 	private Date flightTime;
 	private boolean foodOption;
+	private FoodType foodType;
+
 
 
 	public TicketImp(int id, String flightNumber, FlightClass flightClass, int seatNumber, String destination,
@@ -71,7 +73,14 @@ public class TicketImp implements Ticket {
 		
 		StringBuilder sb = new StringBuilder();
 		
-		return sb;
+		return sb.toString();
 	}
 
+	public FoodType getFoodType() {
+		return foodType;
+	}
+
+	public void setFoodOption(boolean foodOption) {
+		this.foodOption = foodOption;
+	}
 }

@@ -15,6 +15,8 @@ public class SystemUI {
 		// Try-with-resources to auto-close scanner on error or exit
 		try(Scanner scanner = new Scanner(System.in)) {
 
+			ui UI = new ui(); 
+			
 			// Run at least once.
 			do {
 
@@ -30,9 +32,18 @@ public class SystemUI {
 							System.out.println("Exiting program...");
 							isRunning = false;
 							break;
-
+							
+							
+						case "1": 
+							
+							
+							break; 
+						
 						default:
 							System.out.println(keyboard + " is not a valid option. Please try again.");
+							
+							
+						
 
 					}
 

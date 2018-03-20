@@ -15,7 +15,7 @@ public class Airline {
 		Airplane airplane1= new Airplane(10, 5);
 		ReservationService office= new ReservationService(airplane1);
 		CustomerService customerService= new CustomerService();
-		FoodService foodService= new FoodService();
+		//FoodService foodService= new FoodService();
 		System.out.println("Wellcome to " + name);		
 	}
 

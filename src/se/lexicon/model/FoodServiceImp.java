@@ -8,18 +8,18 @@ public class FoodServiceImp implements FoodService {
 
 	private List<Food> foodService = new ArrayList<Food>();
 	private static List<String> foodMenu = new ArrayList<String>();
-	private List<Reservation> reservationList = new ArrayList<Reservation>();
+	private List<Reservation1> reservationList = new ArrayList<Reservation1>();
 	private List<Integer> seatList = new ArrayList<Integer>();
 	
 	public static void initFoodMenu() {
 		foodMenu.add("RossBiff Sandwitch");
 		foodMenu.add("Stake");
 	}
-	public FoodServiceImp(List<Reservation> reservationList) {
+	public FoodServiceImp(List<Reservation1> reservationList) {
 		
 		Food food = null;
 		System.out.println("Hosteses have got passengers order for the food ... ");
-		for(Reservation nextReservation : reservationList) {
+		for(Reservation1 nextReservation : reservationList) {
 			if(nextReservation.getTicket().getFoodType() == FoodType.ECONOMY) {
 				food = new FoodImp(foodMenu.get(0), 100, FoodType.ECONOMY);
 			}
@@ -105,7 +105,7 @@ public class FoodServiceImp implements FoodService {
 	@Override
 	public void takeFoodOrders() {
 		
-		for(Reservation nextReservation : reservationList)
+		for(Reservation1 nextReservation : reservationList)
 		{
 			if(nextReservation.getTicket().getFoodType() == FoodType.ECONOMY) {
 			this.addOrders(new FoodImp(foodMenu.get(0), 100, FoodType.ECONOMY));

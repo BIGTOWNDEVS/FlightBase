@@ -2,12 +2,12 @@ package se.lexicon.model;
 
 import java.util.Date;
 
-public class Food {
+public class FoodImp {
 	
 	private String foodName;
 	private Date serviceTime;
 	
-	public Food(String foodName, Date serviceTime) {
+	public FoodImp(String foodName, Date serviceTime) {
 		super();
 		this.foodName = foodName;
 		this.serviceTime = serviceTime;

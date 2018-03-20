@@ -10,6 +10,9 @@ public class Airplane {
 		businessSeats=business;
 	}
 
+	
+	
+	// geters
 	public int getSeats() {
 		return seats;
 	}

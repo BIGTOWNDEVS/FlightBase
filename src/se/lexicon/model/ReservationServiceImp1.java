@@ -8,9 +8,8 @@ public class ReservationServiceImp1 implements ReservationService1 {
 	private List<Reservation1> reservationList = new ArrayList<Reservation1>();
 
 		
-	public ReservationServiceImp1(List<Reservation1> reservationList, CustomerImp1 customer, Ticket ticket) {
+	public ReservationServiceImp1() {
 		super();
-		this.reservationList = reservationList;
 	}
 
 
@@ -18,6 +17,11 @@ public class ReservationServiceImp1 implements ReservationService1 {
 	public void Add(Reservation1 reservation) {	
 		
 		reservationList.add(reservation);
+	}
+
+
+	public List<Reservation1> getReservationList() {
+		return reservationList;
 	}
 
 }

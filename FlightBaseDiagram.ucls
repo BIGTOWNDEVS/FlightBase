@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="se.lexicon.model.FlightManager" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FlightManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="202" x="1942" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="se.lexicon.model.ReservationServiceImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/ReservationServiceImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="240" x="2388" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="se.lexicon.ui.SystemUI" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/ui/SystemUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="87" x="461" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="se.lexicon.model.Airline1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Airline1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="184" x="3802" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="se.lexicon.model.Customer1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Customer1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="107" x="2429" y="1075"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="6" language="java" name="se.lexicon.model.FoodPriceType" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FoodPriceType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="189" x="588" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="7" language="java" name="se.lexicon.model.Reservation1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Reservation1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="150" x="2653" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="se.lexicon.model.Flight1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Flight1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="103" x="817" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="se.lexicon.model.ReservationService" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/ReservationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="214" x="1506" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="se.lexicon.exception.ExampleException" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/exception/ExampleException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="204" x="960" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="se.lexicon.model.FoodImp" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FoodImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="166" x="3167" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="se.lexicon.application.Main" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/application/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="1204" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="se.lexicon.model.TicketImp" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/TicketImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="389" x="3373" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="se.lexicon.model.CustomerService" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/CustomerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="139" x="1085" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="se.lexicon.model.Flight" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Flight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="194" x="1312" y="1075"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="se.lexicon.model.FlightImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FlightImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="165" x="1737" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="se.lexicon.model.Reservation" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Reservation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="221" x="1264" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="se.lexicon.model.AirplaneImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/AirplaneImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="186" x="1942" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="se.lexicon.model.FoodServiceImp" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FoodServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="204" x="2923" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="se.lexicon.model.Airplane" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Airplane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="136" x="1264" y="1520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="21" language="java" name="se.lexicon.model.FoodType" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FoodType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="130" x="3240" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="22" language="java" name="se.lexicon.model.AirlineService1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/AirlineService1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="153" x="4026" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="se.lexicon.model.AirlineImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/AirlineImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="184" x="3802" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="se.lexicon.model.AirlineServiceImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/AirlineServiceImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="153" x="4026" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="se.lexicon.model.Customer" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="130" x="1113" y="1075"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="26" language="java" name="se.lexicon.model.FlightClass" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FlightClass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="135" x="3410" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="27" language="java" name="se.lexicon.model.ReservationImpl1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/ReservationImpl1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="215" x="2668" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="se.lexicon.model.ReservationService1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/ReservationService1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="2168" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="29" language="java" name="se.lexicon.model.FoodService" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/FoodService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="171" x="2843" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="30" language="java" name="se.lexicon.model.Airline" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Airline.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="109" x="1357" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="se.lexicon.model.Ticket" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Ticket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="156" x="3585" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="32" language="java" name="se.lexicon.model.Airplane1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Airplane1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="185" x="3762" y="1075"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="33" language="java" name="se.lexicon.model.CustomerService1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/CustomerService1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="130" x="1546" y="1075"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="34" language="java" name="se.lexicon.model.CustomerServiceImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/CustomerServiceImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="151" x="1546" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="35" language="java" name="se.lexicon.model.Food" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/Food.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="146" x="3054" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="36" language="java" name="se.lexicon.model.CustomerImp1" project="FlightBase" 
+    file="/FlightBase/src/se/lexicon/model/CustomerImp1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="144" x="2469" y="630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="37">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="38">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="39" name="customer"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="42" name="flightClass"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="45" name="airplane"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="48" name="newCustomer"/>      
+      <multiplicity id="49" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="50">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="35"/>  
+  </realization>  
+  <association id="51">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="52" name="airlineList"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="55" name="ticket"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="58" name="reservationList"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="61" name="reservations"/>      
+      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="64" name="airline"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="67">    
+    <bendpoint x="1515" y="630"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="68" name="flights"/>      
+      <multiplicity id="69" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <bendpoint x="3771" y="630"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="71" name="airplaneList"/>      
+      <multiplicity id="72" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <bendpoint x="1273" y="1075"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="74" name="airplane"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="77" name="foodType"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="80">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="81" name="passengers"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="83">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="85">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="86" name="airplaneList"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="88">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="89">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="90" name="flightManager"/>      
+      <multiplicity id="91" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="93" name="reservationList"/>      
+      <multiplicity id="94" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="95">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="96">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="97" name="flight"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="100" name="customerList"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="102">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="103">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="33"/>  
+  </realization>  
+  <association id="104">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="105" name="ticketList"/>      
+      <multiplicity id="106" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="108" name="reservationService"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="111" name="customer"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="114" name="foodType"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <bendpoint x="2438" y="630"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="117" name="customerList"/>      
+      <multiplicity id="118" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="120" name="foodService"/>      
+      <multiplicity id="121" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

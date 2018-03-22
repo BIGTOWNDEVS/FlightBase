@@ -1,0 +1,9 @@
+        
+        GregorianCalendar gc = new GregorianCalendar();
+        //gc.add(gc.DAY_OF_MONTH, 2);
+        gc.set(GregorianCalendar.DAY_OF_MONTH, 21);
+        gc.set(GregorianCalendar.HOUR_OF_DAY, 12);
+        gc.set(GregorianCalendar.MINUTE, 0);
+        gc.set(GregorianCalendar.SECOND, 0);
+        Date day = gc.getTime();
+        System.out.println(day.toString());

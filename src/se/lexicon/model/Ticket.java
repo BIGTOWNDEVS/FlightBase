@@ -12,4 +12,6 @@ public interface Ticket {
 	public Date getFlightTime();
 	public boolean getFoodOption();
 	public FoodType getFoodType();
+	public Airline1 getAirline();
+	public int getPrice();
 }

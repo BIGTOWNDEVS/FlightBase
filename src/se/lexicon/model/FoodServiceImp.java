@@ -19,6 +19,7 @@ public class FoodServiceImp implements FoodService {
 		
 		Food food = null;
 		System.out.println("Hosteses have got passengers order for the food ... ");
+		initFoodMenu();
 		for(Reservation1 nextReservation : reservationList) {
 			if(nextReservation.getTicket().getFoodType() == FoodType.ECONOMY) {
 				food = new FoodImp(foodMenu.get(0), 100, FoodType.ECONOMY);
@@ -117,6 +118,7 @@ public class FoodServiceImp implements FoodService {
 		
 		return;
 	}
+	
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();

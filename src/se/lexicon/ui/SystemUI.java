@@ -209,7 +209,7 @@ public class SystemUI {
 									   if(airplane.isAirplaneFull()) {
 										   System.out.println("Airplane is full\n");
 										   airplane = new AirplaneImp1(" ");
-										   airline.add(airplane);
+										   airline.addAirplane(airplane);
 										   airplane.setNumber(next.getTicket().getFlightNumber());
 										   if(airplane.getDestination().toLowerCase().equals(next.getTicket().getDestination()))
 											   airplane.setDestination(next.getTicket().getDestination());

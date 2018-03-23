@@ -16,7 +16,7 @@ public class FlightControl {
 
 	public void Control() {
 
-		Command command = new Command("process it");
+		Command command = new Command("process it", airplaneList.get(0));
 	    
 	    ControlWaiter controlWaiter = new ControlWaiter(command, airplaneList.get(0));
 	    new Thread(controlWaiter,"ControlWaiter").start();
@@ -27,7 +27,7 @@ public class FlightControl {
 	    ControlWaiter controlWaiter2 = new ControlWaiter(command, airplaneList.get(2));
 	    new Thread(controlWaiter2, "controlWaiter1").start();
 	    
-	    ControlNotifier controlNotifier = new ControlNotifier(command);
+	    ControlNotifier controlNotifier = new ControlNotifier(command, airplaneList.get(0));
 	    new Thread(controlNotifier, "controlNotifier").start();
 	    System.out.println("All the threads are started");
 	}

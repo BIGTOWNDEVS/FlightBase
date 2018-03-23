@@ -287,7 +287,7 @@ public class SystemUI {
 									   gc1.add(GregorianCalendar.MINUTE,2);
 									   date = gc1.getTime();
 									   System.out.println("Time of Landing of Flight is: " + date );
-									   airplane.land();
+									   next.land();
 									   System.out.println("Airplane refulled after landing");
 									   airplane.isbRefulled();
 								   }

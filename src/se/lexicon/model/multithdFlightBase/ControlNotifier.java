@@ -16,8 +16,8 @@ public class ControlNotifier implements Runnable {
             Thread.sleep(1000);
             synchronized (command) {
             	command.setCommand(name+" Notifier work done");
-                command.notify();
-                // msg.notifyAll();
+                //command.notify();
+                 command.notifyAll();
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

@@ -80,8 +80,6 @@ public class AirlineImp1 implements Airline1 {
 		{
 			throw new NumberOfAirlineExpandsException();
 		}
-		
-		
 	}
 
 	@Override

@@ -1,5 +1,7 @@
 package se.lexicon.model;
 
+import java.util.Date;
+
 public interface Airplane1 {
 
 	public boolean takeOff();
@@ -13,4 +15,9 @@ public interface Airplane1 {
 	public void reserveSeat();
 	public int getLastSeatNumber();
 	public void setLastSeatNumber(int lastSeatNumber);
-}
+	public String getDestination();
+	public void setDestination(String destination);
+	public Date getDepartureTime();
+	public void setDepartureTime(Date date);
+	public Date getArrivalTime();
+	public void setArrivalTime(Date date);}

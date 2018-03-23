@@ -514,8 +514,10 @@ System.out.println("End of program FlightBase-----");
 						e.printStackTrace();
 					}
 					   airplane.setNumber(next.getTicket().getFlightNumber());
-					   if(airplane.getDestination().toLowerCase().equals(next.getTicket().getDestination()))
+					   if(airplane.getDestination().toLowerCase().equals(next.getTicket().getDestination())) {
 						   airplane.setDestination(next.getTicket().getDestination());
+					   	   airplane.setDepartureTime(next.getTicket().getFlightTime());
+					   }
 					   else {
 						   System.out.println("we have only one plane");
 					   }
@@ -526,6 +528,7 @@ System.out.println("End of program FlightBase-----");
 					   airplane.setNumber(next.getTicket().getFlightNumber());
 					   airplane.setbNoEmptySeats(false);
 					   airplane.setDestination(next.getTicket().getDestination());
+				   	   airplane.setDepartureTime(next.getTicket().getFlightTime());
 				   }
 				   
 				   airplane.addPassengers(next.getCustomer());
@@ -546,10 +549,10 @@ System.out.println("End of program FlightBase-----");
 			   System.out.println("time of flight takeof is: " + gc1.getTime());
 			   try {
 				   		Thread.sleep(12000);
-					} catch (InterruptedException e) {
+			   } catch (InterruptedException e) {
 						
 						e.printStackTrace();
-					}
+			   }
 			   gc1.add(GregorianCalendar.MINUTE,2);
 			   Date date = gc1.getTime();
 			   System.out.println("Time of Landing of Flight is: " + date );
